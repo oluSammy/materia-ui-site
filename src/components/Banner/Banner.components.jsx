@@ -7,7 +7,10 @@ const Banner = () => {
     return (
         <div className={classes.root}>
             <Navbar />
-            <h1>Material kit react</h1>
+            <div className={classes.bannerText}>
+                <h1 className={classes.bannerTittle}>Material kit react<sup className={classes.sup}>PRO</sup></h1>
+                <h4 className={classes.bannerSubtitle}>A Badass material-ui kit based on material design.</h4>
+            </div>
         </div>
     )
 }
