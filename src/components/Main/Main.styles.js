@@ -11,10 +11,10 @@ const mainStyles = makeStyles(theme => ({
         marginTop: '-6rem',
         zIndex: '1000',
         backgroundColor: theme.palette.common.white,
-        paddingBottom: '12rem'
+        paddingBottom: '12rem',
     },
     intro: {
-        padding: '7rem 2rem'
+        padding: '7rem 1rem'
     },
     kit: {
         width: '70%',
