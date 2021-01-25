@@ -40,36 +40,44 @@ const sectionComponentsStyles = makeStyles(theme => ({
         position: 'absolute',
         top: '-1rem',
         left: '6rem',
+        animation: `$testEffect 14s infinite`
     },
     focusImgContainer: {
         width: '10vw',
         position: 'absolute',
-        top: '0.6rem',
+        top: '0.8rem',
         left: '13rem',
+        animation: `$testEffect 24s infinite`
+
     },
     twitterImgContainer: {
         width: '10vw',
         position: 'absolute',
         top: '4rem',
         left: '33rem',
+        animation: `$testEffect 14s infinite`
     },
     tableImgContainer: {
         width: '18vw',
         position: 'absolute',
         top: '9rem',
         left: '0rem',
+        animation: `$testEffect 19s infinite`
     },
     reportImgContainer: {
         width: '6vw',
         position: 'absolute',
         top: '24rem',
         left: '6rem',
+        animation: `$testEffect 16s infinite`
+
     },
     socialImgContainer: {
         width: '26vw',
         position: 'absolute',
         top: '24rem',
         left: '26rem',
+        animation: `$testEffect 20s infinite`
     },
     movingImg: {
         height: '100%',
@@ -78,6 +86,17 @@ const sectionComponentsStyles = makeStyles(theme => ({
         display: 'block',
         boxShadow: '0px 1px 5px 1px rgba(0,0,0,0.75)',
         borderRadius: '.1rem'
+    },
+    "@keyframes testEffect": {
+        "0%": {
+            transform: "translateX(0)"
+        },
+        "50%": {
+            transform: "translateX(70%)"
+        },
+        "100%": {
+            transform: "translateX(0)"
+        }
     }
 }));
 
