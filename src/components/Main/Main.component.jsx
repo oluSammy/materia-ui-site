@@ -7,6 +7,7 @@ import AppsIcon from '@material-ui/icons/Apps';
 import CalendarViewDayIcon from '@material-ui/icons/CalendarViewDay';
 import ReceiptIcon from '@material-ui/icons/Receipt';
 import SectionComponents from './../SectionComponents/SectionComponents.component';
+import SectionConventional from './../sectionConventional/sectionConventional.component';
 
 
 
@@ -56,6 +57,7 @@ const Main = () => {
                 </Grid>
             </Grid>
             <SectionComponents />
+            <SectionConventional />
         </main>
     )
 }
